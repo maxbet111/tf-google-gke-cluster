@@ -1,15 +1,5 @@
-variable "GOOGLE_REGION" {
-  type        = string
-  description = "Регіон Google Cloud (наприклад, us-central1)"
-}
+# Файл на GitHub: tf-google-gke-cluster/variables.tf
 
-variable "GOOGLE_PROJECT" {
-  type        = string
-  description = "ID вашого проєкту в Google Cloud"
-}
-
-variable "GKE_NUM_NODES" {
-  type        = number
-  description = "Кількість вузлів у кластері"
-  default     = 2
-}
+variable "GOOGLE_REGION" { type = string }
+variable "GOOGLE_PROJECT" { type = string }
+variable "GKE_NUM_NODES" { type = number }
