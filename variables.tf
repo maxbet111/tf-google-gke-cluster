@@ -13,8 +13,3 @@ variable "GKE_NUM_NODES" {
   description = "Кількість вузлів у кластері"
   default     = 2
 }
-
-variable "MACHINE_TYPE" {
-  type    = string
-  default = "e2-medium"
-}
